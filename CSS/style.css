@@ -265,15 +265,14 @@ em::after {
   grid-area: textous;
   padding: 15%; }
 
-.btn--plano {
+.btn--plano, .btn--plano--portfolio {
   background-color: #ffffff;
   cursor: pointer;
   padding: 10% 5% 5% 0%;
   border: none; }
-
-.btn--plano img {
-  width: 20px;
-  padding-left: 5px; }
+  .btn--plano img, .btn--plano--portfolio img {
+    width: 20px;
+    padding-left: 5px; }
 
 .separador--contact {
   grid-area: separador2;
@@ -471,12 +470,9 @@ em::after {
 .textosimg {
   width: 5%; }
 
-.btn--plano {
-  background-color: #ffffff;
-  cursor: pointer;
-  padding-top: 2%;
-  border: none; }
-  .btn--plano > img {
+.btn--plano--portfolio {
+  padding-top: 2%; }
+  .btn--plano--portfolio > img {
     width: 20px;
     padding-left: 5px; }
 

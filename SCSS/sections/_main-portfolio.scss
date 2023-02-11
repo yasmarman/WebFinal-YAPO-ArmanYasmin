@@ -71,11 +71,9 @@
     width: 5%;
 }
 
-.btn--plano {
-    background-color: $textosB;
-    cursor: pointer;
+.btn--plano--portfolio {
+    @extend .btn--plano;
     padding-top: 2%;
-    border: none;
 
     >img {
         width: 20px;
