@@ -295,9 +295,8 @@ em::after {
   justify-content: space-between;
   gap: 20px;
   width: 120%; }
-
-.btn--simple img {
-  width: 30px; }
+  .btn--simple img {
+    width: 30px; }
 
 /* CONTENEDOR 1 MEDIA QUERYS ////////////////////////////////////////////////////////*/
 @media (max-width: 480px) {

@@ -1,0 +1,33 @@
+
+
+@mixin botonlineasimple {
+    display: flex;
+    border: 2px solid $textosB;
+    border-radius: 10px;
+    background: $primario;
+    font-size: 16px;
+    color: $textosB;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 9%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 120%;
+
+  }
+
+
+  @mixin separadorplenocolor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: $primario;
+    padding: 4% 10% 4% 8%;
+    color: $textosB;
+    align-items: center;
+    gap: 50px;
+
+  }
