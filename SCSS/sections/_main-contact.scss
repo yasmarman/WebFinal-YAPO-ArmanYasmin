@@ -1,0 +1,149 @@
+/* CONTACTO ///////////////////////////////////////////////////////////////////////*/
+
+.main--contacto {
+    a {
+        color: $secundario;
+    }
+}
+
+
+.encabezado--contacto {
+    padding: 5% 10% 5% 10%;
+    background-image: url(../assets/arq-15.png);
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $separadores;
+}
+
+.separados__p--contacto {
+    font-weight: 300;
+    font-size: 110%;
+    line-height: 1.4;
+}
+
+.container--contacto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    padding: 5% 8% 5% 8%;
+    justify-items: center;
+    gap: 25px;
+}
+
+
+/* FORMULARIO */
+
+form {
+    width: 400px;
+    padding: 10px 40px;
+}
+
+label {
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid $separadores;
+    color: $secundario;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 9px;
+    border-radius: 4px;
+    padding: 8px 15px;
+    font-weight: 300;
+}
+
+.btn--send {
+    width: 100%;
+    padding: 9px 20px 9px 20px;
+    margin-top: 20px;
+    border: 1px solid $textosN;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    img {
+        width: 20px;
+        padding-left: 5px;
+    }
+
+    span {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    &:hover {
+        background-color: $primario;
+    }
+}
+
+/* BLOG SEPARADOR */
+
+.separador--blog {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 250px;
+    background-image: url(../assets/blog.png);
+    background-position-y: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4%;
+}
+
+.btn__blog--doble {
+    width: 15%;
+    height: 68px;
+    background: $primario;
+    border: none;
+
+    >p {
+        font-size: 1.1rem;
+        line-height: 1.2;
+        font-weight: 700;
+        color: $separadores;
+        padding: unset;
+    }
+
+}
+
+.btn__blogNegro {
+    width: 8%;
+    height: 68px;
+    background: $textosN;
+    border: none;
+    cursor: pointer;
+
+    img {
+        width: 45%;
+    }
+}
+
+/* MEDIA QUERYS CONTACTO ///////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 320px) and (max-width: 680px) {
+
+    .btn__blog--doble {
+        width: 30%;
+        height: 68px;
+    }
+
+
+    .btn__blogNegro {
+        width: 14%;
+        height: 68px;
+        >p {
+            font-size: 1rem;
+
+
+        }
+    }
+}
+
+/* FIN CONTACTO ///////////////////////////////////////////////////////////////////////*/

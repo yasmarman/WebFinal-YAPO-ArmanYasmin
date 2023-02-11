@@ -1,0 +1,188 @@
+/* CONTENEDOR 1 ////////////////////////////////////////////////////////*/
+
+
+.CONTENEDOR-GRID {
+    width: 100vw;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: 55vw minmax(6rem, 35rem) auto;
+    grid-template-rows: minmax(0, 30rem) minmax(0, 8rem);
+    grid-template-areas:
+        "imggrande imgchica imgchica "
+        "imggrande  boton1 boton2"
+        "separador  separador separador"
+        "imgaboutus  textous textous"
+        "separador2  separador2 separador2"
+    ;
+    padding-top: 5px;
+}
+
+
+.encabezado__img--large {
+    background-image: url(../assets/arq-15.png);
+    padding: 10% 10% 9% 15%;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /* background: #758a8f; */
+    grid-area: imggrande;
+}
+
+.encabezado__img--small {
+    height: auto;
+    background-image: url(../assets/arq-2.png);
+    background-size: cover;
+    /* background: #011b20; */
+    grid-area: imgchica;
+}
+
+.btn--doble {
+    background: $primario;
+    grid-area: boton1;
+    border: none;
+    color: $textosB;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 20px;
+
+    p {
+        font-size: 32px;
+    }
+}
+
+.btn--dobleNegro {
+    border: none;
+    background: $textosN;
+    grid-area: boton2;
+
+}
+
+.img-button {
+    img {
+        max-width: 40%;
+
+    }
+}
+
+
+
+
+.separador {
+    grid-area: separador;
+    background:$separadores;
+    padding: 5% 5% 5% 6%;
+}
+
+.main__img--aboutUs {
+    grid-area: imgaboutus;
+    background-image: url(../assets/arq-10.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* .main__img--aboutUs img{
+    width: 100%;
+  } */
+
+.main__text--aboutUs {
+    grid-area: textous;
+    padding: 15%;
+}
+
+.btn--plano {
+    background-color:$textosB;
+    cursor: pointer;
+    padding: 10% 5% 5% 0%;
+    border: none;
+}
+
+.btn--plano {
+    img {
+        width: 20px;
+        padding-left: 5px;
+    }
+}
+
+
+.separador--contact {
+    grid-area: separador2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: $primario;
+    padding: 4% 10% 4% 8%;
+    color: $textosB;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+
+.btn--simple {
+    display: flex;
+    border: 2px solid $textosB;
+    border-radius: 10px;
+    background: $primario;
+    font-size: 16px;
+    color: $textosB;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 9%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 120%;
+
+}
+
+.btn--simple {
+    img {
+        width: 30px;
+
+    }
+}
+
+/* CONTENEDOR 1 MEDIA QUERYS ////////////////////////////////////////////////////////*/
+
+@media (max-width:480px) {
+
+    .CONTENEDOR-GRID {
+        width: 100vw;
+        display: grid;
+        grid-auto-rows: max-content;
+        grid-template-columns: 1fr 165px;
+        grid-template-areas:
+            "imggrande imggrande  "
+            "boton1 boton2"
+            "separador  separador "
+            "imgaboutus  imgaboutus "
+            "textous textous"
+            "separador2  separador2 "
+        ;
+
+    }
+
+    .main__img--aboutUs {
+        height: 400px;
+        background-position: bottom;
+    }
+
+    .encabezado__img--large {
+        background-position: 80%;
+
+    }
+
+
+    .separador {
+        padding: 15%;
+    }
+
+    .separador--contact {
+        padding: 15%;
+    }
+
+
+}

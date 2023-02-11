@@ -1,0 +1,155 @@
+/** PORTFOLIO //////////////////////////////////////////////////////////////////////**/
+
+
+.encabezado--portfolio {
+    @extend .separador;
+
+    h2 {
+        line-height: 1.0;
+    }
+}
+
+.container--portfolio {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(7, 10%);
+    grid-template-rows: repeat(4, 350px);
+    grid-gap: 12px;
+    padding: 50px;
+    justify-content: space-around;
+    grid-auto-flow: dense;
+}
+
+
+.main--portfolio {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+
+    h3 {
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 31px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding-top: 2rem;
+    }
+
+    >img {
+        object-fit: cover;
+        width: 100%;
+        height: 220px;
+    }
+
+}
+
+
+.img1,
+.img4,
+.img5 {
+
+    grid-column: span 4;
+}
+
+.img2,
+.img3,
+.img6,
+.img9 {
+
+    grid-column: span 3;
+}
+
+.img7,
+.img8 {
+    grid-column: span 2;
+}
+
+.textosimg {
+    width: 5%;
+}
+
+.btn--plano {
+    background-color: $textosB;
+    cursor: pointer;
+    padding-top: 2%;
+    border: none;
+
+    >img {
+        width: 20px;
+        padding-left: 5px;
+    }
+}
+
+
+
+/** MEDIA QUERYS PORTFOLIO //////////////////////////////////////////////////////////////////////**/
+
+
+@media (max-width: 800px) {
+    .container--portfolio {
+        grid-template-columns: repeat(5, 17%);
+        grid-gap: 10px;
+        padding: 20px;
+    }
+
+    .img1,
+    .img4,
+    .img5 {
+        grid-column: span 5;
+    }
+
+
+    .img9 {
+        grid-column: span 2;
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+    .container--portfolio {
+        grid-template-columns: unset;
+        grid-template-rows: unset;
+        grid-gap: 48px;
+        padding: 20px;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8,
+    .img9 {
+        grid-column: unset;
+    }
+
+}
+
+
+/** FIN PORTFOLIO //////////////////////////////////////////////////////////////////////**/
+
+
+/* animaiones ///////////////////////////////////////////////////////*/
+
+
+
+.main--portfolio {
+
+    img {
+        transition: transform 1s;
+
+        &:hover {
+            transform: scale(1.2);
+            object-fit: cover;
+
+        }
+
+    }
+}

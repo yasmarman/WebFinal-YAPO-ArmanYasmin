@@ -1,0 +1,70 @@
+/** SERVICIOS //////////////////////////////////////////////////////////////////////**/
+
+.encabezado--service {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5%;
+    background-image: url(../assets/servicios.png);
+    background-position: center;
+
+    h2 {
+        font-size: 35px;
+        line-height: 1.1;
+    }
+
+    hr {
+        width: 150px;
+        height: 0px;
+        border: 7px solid $primario;
+        margin-top: 10px;
+    }
+}
+
+.separador-servicios {
+    @extend .separador;
+    padding: 45px;
+
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}
+
+
+.container--services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding-top: 5%;
+    justify-content: space-evenly;
+}
+
+.main--services {
+    padding-bottom: 4%;
+
+    hr {
+        width: 70px;
+        height: 0px;
+        border: 3px solid #41B1C9;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        padding: 15px;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+
+    h3 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 31px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+}
+
+/** FIN SERVICIOS //////////////////////////////////////////////////////////////////////**/
