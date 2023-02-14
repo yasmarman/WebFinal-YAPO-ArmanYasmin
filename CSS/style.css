@@ -2,9 +2,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-size: 1em;
   box-sizing: border-box; }
+
+ol, ul {
+  padding-left: 0; }
 
 body {
   animation: fadeIn;
@@ -15,7 +18,8 @@ h1 {
   text-transform: uppercase;
   line-height: 1.2;
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  font-weight: 700; }
 
 h2 {
   font-size: 2.2em;
@@ -24,10 +28,15 @@ h2 {
   padding-bottom: 10px;
   padding-top: 10px; }
 
+h3 {
+  font-size: 16px;
+  font-weight: 700; }
+
 p {
   font-size: 0.875em;
   line-height: 1.4;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-bottom: 0 !important; }
 
 a {
   text-decoration: none;
@@ -624,6 +633,59 @@ input {
       font-size: 1rem; } }
 
 /* FIN CONTACTO ///////////////////////////////////////////////////////////////////////*/
+.link-blog {
+  color: #000000; }
+
+.img-fluid {
+  max-width: 100%;
+  object-fit: cover !important;
+  height: 100%;
+  border-radius: 0.375rem; }
+
+.card-body-full {
+  flex: 1 1 auto;
+  display: flex !important;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 2.5rem 1.2rem; }
+  .card-body-full .card-title {
+    font-size: 30px; }
+
+.breadcrumb-item a {
+  color: #41B1C9; }
+
+.col-lg-12 img,
+.col-md-12 img,
+.col-xs-12 img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem; }
+
+.col-lg-12 .card-title,
+.col-md-12 .card-title,
+.col-xs-12 .card-title {
+  font-size: 30px;
+  padding: 2rem 0; }
+
+.col img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover; }
+
+.col .card-title {
+  font-size: 30px;
+  padding: 2rem 0; }
+
+.col-lg-6 p, .col-md-6 p, .col-xs-12 p {
+  padding-bottom: 2.2rem; }
+
+.card-img-top {
+  width: 100%;
+  height: 45%;
+  object-fit: cover;
+  padding-bottom: 1rem; }
+
 /* FOOTER ////////////////////////////////////////////////////////*/
 .footer {
   display: grid;
