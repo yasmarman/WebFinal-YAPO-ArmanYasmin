@@ -677,7 +677,9 @@ input {
   font-size: 30px;
   padding: 2rem 0; }
 
-.col-lg-6 p, .col-md-6 p, .col-xs-12 p {
+.col-lg-6 p,
+.col-md-6 p,
+.col-xs-12 p {
   padding-bottom: 2.2rem; }
 
 .card-img-top {

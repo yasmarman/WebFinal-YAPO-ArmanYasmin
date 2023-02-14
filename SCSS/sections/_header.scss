@@ -76,23 +76,24 @@
 
 /*animacion linea navegador */
 em {
-    &::after{
+    &::after {
         content: "";
-    height: 8px;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    background: $primario;
+        height: 8px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        background: $primario;
 
     }
-    
+
 }
 
 .underlined-animated {
-	&::after {
-		animation: underline-animated 5s alternate-reverse 2;
-	}
+    &::after {
+        animation: underline-animated 5s alternate-reverse 2;
+    }
 }
+
 @keyframes underline-animated {
     0% {
         right: 100%;
