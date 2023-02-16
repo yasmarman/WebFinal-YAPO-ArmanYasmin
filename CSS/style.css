@@ -276,7 +276,7 @@ em::after {
   padding: 15%; }
 
 .btn--plano, .btn--plano--portfolio {
-  background-color: #ffffff;
+  background-color: transparent;
   cursor: pointer;
   padding: 10% 5% 5% 0%;
   border: none; }
