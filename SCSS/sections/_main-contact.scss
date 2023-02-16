@@ -14,6 +14,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: $separadores;
+
+    h1 {
+        color: $textosB;
+
+    }
+
 }
 
 .separados__p--contacto {
@@ -108,8 +114,9 @@ input {
         font-size: 1.1rem;
         line-height: 1.2;
         font-weight: 700;
-        color: $separadores;
+        color: $textosB;
         padding: unset;
+
     }
 
 }

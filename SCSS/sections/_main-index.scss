@@ -1,6 +1,5 @@
 /* CONTENEDOR 1 ////////////////////////////////////////////////////////*/
 
-
 .CONTENEDOR-GRID {
     width: 100vw;
     display: grid;
@@ -164,15 +163,17 @@
 
 
     .container {
-        --bs-gutter-x: unset; 
+        --bs-gutter-x: unset;
         --bs-gutter-y: unset;
-         width: 80%;
-        padding-right: unset; 
-         padding-left: unset; 
-       
+        width: 80%;
+        padding-right: unset;
+        padding-left: unset;
+
     }
 
-    
+
+
+
 }
 
 @media (max-width:320px) {
@@ -206,9 +207,4 @@
     }
 
 
-    .encabezado--contacto {
-       
-        color: #000000;
-    }
-   
 }

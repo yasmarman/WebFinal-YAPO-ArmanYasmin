@@ -354,9 +354,7 @@ em::after {
     font-size: 29px;
     line-height: 1.2; }
   .main__text--aboutUs {
-    padding: 10%; }
-  .encabezado--contacto {
-    color: #000000; } }
+    padding: 10%; } }
 
 /** SERVICIOS //////////////////////////////////////////////////////////////////////**/
 .encabezado--service {
@@ -561,6 +559,8 @@ em::after {
   background-size: cover;
   background-repeat: no-repeat;
   color: #EFEFEF; }
+  .encabezado--contacto h1 {
+    color: #ffffff; }
 
 .separados__p--contacto {
   font-weight: 300;
@@ -636,7 +636,7 @@ input {
     font-size: 1.1rem;
     line-height: 1.2;
     font-weight: 700;
-    color: #EFEFEF;
+    color: #ffffff;
     padding: unset; }
 
 .btn__blogNegro {
