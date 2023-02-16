@@ -90,7 +90,7 @@
 }
 
 .btn--plano {
-    background-color: transparent;
+    background-color: $textosB;
     cursor: pointer;
     padding: 10% 5% 5% 0%;
     border: none;
@@ -201,7 +201,7 @@
     }
 
     .main__text--aboutUs {
-    
+        background-color: $textosB;
         padding: 10%;
     }
 

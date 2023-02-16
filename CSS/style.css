@@ -276,7 +276,7 @@ em::after {
   padding: 15%; }
 
 .btn--plano, .btn--plano--portfolio {
-  background-color: transparent;
+  background-color: #ffffff;
   cursor: pointer;
   padding: 10% 5% 5% 0%;
   border: none; }
@@ -353,6 +353,7 @@ em::after {
     font-size: 29px;
     line-height: 1.2; }
   .main__text--aboutUs {
+    background-color: #ffffff;
     padding: 10%; }
   .encabezado--contacto {
     color: #000000; } }
