@@ -272,6 +272,7 @@ em::after {
     width: 100%;
   } */
 .main__text--aboutUs {
+  background-color: #ffffff;
   grid-area: textous;
   padding: 15%; }
 
@@ -353,7 +354,6 @@ em::after {
     font-size: 29px;
     line-height: 1.2; }
   .main__text--aboutUs {
-    background-color: #ffffff;
     padding: 10%; }
   .encabezado--contacto {
     color: #000000; } }

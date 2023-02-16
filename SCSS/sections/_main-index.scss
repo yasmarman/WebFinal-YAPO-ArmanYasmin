@@ -85,6 +85,7 @@
   } */
 
 .main__text--aboutUs {
+    background-color: $textosB;
     grid-area: textous;
     padding: 15%;
 }
@@ -201,7 +202,6 @@
     }
 
     .main__text--aboutUs {
-        background-color: $textosB;
         padding: 10%;
     }
 
