@@ -11,7 +11,8 @@ ol, ul {
 
 body {
   animation: fadeIn;
-  animation-duration: 1.1s; }
+  animation-duration: 1.1s;
+  overflow-x: hidden; }
 
 h1 {
   font-size: 2.2em;
@@ -193,7 +194,7 @@ em::after {
   #menu {
     position: absolute;
     width: 100vw;
-    height: 45vh;
+    height: 60%;
     margin: 54px 0 0 -50px;
     padding-top: 0px;
     flex-direction: column;
@@ -327,9 +328,34 @@ em::after {
   .encabezado__img--large {
     background-position: 80%; }
   .separador, .separador-servicios, .encabezado--portfolio {
-    padding: 15%; }
+    padding: 10%; }
   .separador--contact {
-    padding: 15%; } }
+    padding: 10%; }
+  .container {
+    --bs-gutter-x: unset;
+    --bs-gutter-y: unset;
+    width: 80%;
+    padding-right: unset;
+    padding-left: unset; } }
+
+@media (max-width: 320px) {
+  .encabezado__img--large {
+    background-image: url(../assets/arq-15.png);
+    padding: 10% 14% 9% 9%;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /* background: #758a8f; */
+    grid-area: imggrande; }
+  h1 {
+    font-size: 2.0em; }
+  .btn--doble p {
+    font-size: 29px;
+    line-height: 1.2; }
+  .main__text--aboutUs {
+    padding: 10%; }
+  .encabezado--contacto {
+    color: #000000; } }
 
 /** SERVICIOS //////////////////////////////////////////////////////////////////////**/
 .encabezado--service {

@@ -19,6 +19,8 @@
 }
 
 @media (max-width:700px) {
+
+
     .menuToggle {
         display: flex;
         top: 50px;
@@ -108,7 +110,7 @@
     #menu {
         position: absolute;
         width: 100vw;
-        height: 45vh;
+        height: 60%;
         margin: 54px 0 0 -50px;
         padding-top: 0px;
         flex-direction: column;
@@ -127,6 +129,7 @@
             text-align: center;
         }
     }
+
 }
 
 /*FIN NAVEGADOR MENU responsivo*/
