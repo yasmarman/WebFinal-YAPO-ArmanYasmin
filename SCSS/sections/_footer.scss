@@ -1,7 +1,5 @@
 /* FOOTER ////////////////////////////////////////////////////////*/
 
-
-
 .footer {
     display: grid;
     grid-template-rows: 1fr auto;
@@ -68,7 +66,6 @@
     list-style: none;
 }
 
-/* .----------. */
 /* 2da columna  */
 .footer__nav--quickLink {
     a {
@@ -84,7 +81,6 @@
     }
 }
 
-/* ...----------.... */
 /* legales  */
 .footer__nav--legales {
     margin-left: auto;

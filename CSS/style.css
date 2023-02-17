@@ -44,7 +44,8 @@ a {
   color: #ffffff; }
 
 @media (min-width: 1350px) {
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 2.7em; }
   p {
     font-size: 1em;
@@ -212,7 +213,6 @@ em::after {
       text-align: center; } }
 
 /*FIN NAVEGADOR MENU responsivo*/
-/* CONTENEDOR 1 ////////////////////////////////////////////////////////*/
 .CONTENEDOR-GRID {
   width: 100vw;
   display: grid;
@@ -228,14 +228,12 @@ em::after {
   background-size: cover;
   background-position: center;
   height: auto;
-  /* background: #758a8f; */
   grid-area: imggrande; }
 
 .encabezado__img--small {
   height: auto;
   background-image: url(../assets/arq-2.png);
   background-size: cover;
-  /* background: #011b20; */
   grid-area: imgchica; }
 
 .btn--doble {
@@ -268,9 +266,6 @@ em::after {
   background-size: cover;
   background-position: bottom; }
 
-/* .main__img--aboutUs img{
-    width: 100%;
-  } */
 .main__text--aboutUs {
   background-color: #ffffff;
   grid-area: textous;
@@ -315,7 +310,7 @@ em::after {
   .btn--simple img {
     width: 30px; }
 
-/* CONTENEDOR 1 MEDIA QUERYS ////////////////////////////////////////////////////////*/
+/* MEDIA QUERYS ////////////////////////////////////////////////////////*/
 @media (max-width: 480px) {
   .CONTENEDOR-GRID {
     width: 100vw;
@@ -346,7 +341,6 @@ em::after {
     background-size: cover;
     background-position: center;
     height: auto;
-    /* background: #758a8f; */
     grid-area: imggrande; }
   h1 {
     font-size: 2.0em; }
@@ -781,7 +775,6 @@ input {
   gap: 10%;
   list-style: none; }
 
-/* .----------. */
 /* 2da columna  */
 .footer__nav--quickLink a {
   color: #ffffff;
@@ -792,7 +785,6 @@ input {
   .footer__nav--quickLink a:hover {
     color: #41B1C9; }
 
-/* ...----------.... */
 /* legales  */
 .footer__nav--legales {
   margin-left: auto;
