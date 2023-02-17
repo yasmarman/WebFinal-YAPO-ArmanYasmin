@@ -269,7 +269,7 @@ em::after {
 .main__text--aboutUs {
   background-color: #ffffff;
   grid-area: textous;
-  padding: 15%; }
+  padding: 10%; }
 
 .btn--plano, .btn--plano--portfolio {
   background-color: #ffffff;
@@ -290,7 +290,7 @@ em::after {
   padding: 4% 10% 4% 8%;
   color: #ffffff;
   align-items: center;
-  gap: 50px; }
+  gap: 10px; }
 
 .btn--simple {
   display: flex;
@@ -651,7 +651,9 @@ input {
     width: 14%;
     height: 68px; }
     .btn__blogNegro > p {
-      font-size: 1rem; } }
+      font-size: 1rem; }
+  .separador--blog {
+    background-position-x: -261px; } }
 
 /* FIN CONTACTO ///////////////////////////////////////////////////////////////////////*/
 .link-blog {
@@ -818,5 +820,9 @@ input {
     padding: 2rem; }
   .footer__nav--legales {
     margin-left: unset; } }
+
+@media (max-width: 400px) {
+  .footer__nav--quickLink {
+    display: unset; } }
 
 /* FIN FOOTER ////////////////////////////////////////////////////////*/

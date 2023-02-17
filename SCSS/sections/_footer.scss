@@ -141,4 +141,10 @@
     }
 }
 
+@media (max-width:400px) {
+
+.footer__nav--quickLink {
+    display: unset;
+}
+}
 /* FIN FOOTER ////////////////////////////////////////////////////////*/
