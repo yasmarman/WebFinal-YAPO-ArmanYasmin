@@ -7,10 +7,15 @@
 }
 
 
-.link-blog {
-    color: $textosN ;
+    .link-blog {
+        color: $textosN;
+        transition: all .2s ease-in-out;
 
-}
+        &:hover {
+            color: $primario;
+        }
+    }
+
 
 
 .img-fluid {

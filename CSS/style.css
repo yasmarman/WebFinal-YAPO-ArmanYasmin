@@ -657,7 +657,10 @@ input {
 
 /* FIN CONTACTO ///////////////////////////////////////////////////////////////////////*/
 .link-blog {
-  color: #000000; }
+  color: #000000;
+  transition: all .2s ease-in-out; }
+  .link-blog:hover {
+    color: #41B1C9; }
 
 .img-fluid {
   max-width: 100%;
